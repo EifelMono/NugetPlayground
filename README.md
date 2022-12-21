@@ -1,2 +1,4 @@
-"# NugetPlayground" 
-"# NugetPlayground" 
+# NugetPlayground 
+
+My Learning stuff for Nugets with targets
+
