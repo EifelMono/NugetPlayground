@@ -1,7 +1,5 @@
 ﻿Console.WriteLine("AppWithLibAsNuget");
 
-var libClass = new LibClass();
-
-libClass.Infos();
+LibClass.Infos();
 
 Console.WriteLine(Concat("World", "World"));
