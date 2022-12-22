@@ -5,7 +5,7 @@ public class LibClass
 {
     private static readonly string s_libText = $"{AppContext.BaseDirectory}/Lib.Txt";
     private static readonly string s_appText = $"{AppContext.BaseDirectory}/App.Txt";
-    private static readonly string s_libInFolder_LibInFolderText = $"{AppContext.BaseDirectory}/LibInFolder/LibInFolder.Txt";
+    private static readonly string s_otherLibTxt_OtherLibText = $"{AppContext.BaseDirectory}/OtherLibTxt/OtherLib.txt";
 
     public static void Infos()
     {
@@ -21,7 +21,7 @@ public class LibClass
         ;
         Console.WriteLine($"LibText exist {System.IO.File.Exists(s_libText)}");
         ;
-        Console.WriteLine($"LibInFolder_LibInFolderText exist {System.IO.File.Exists(s_libInFolder_LibInFolderText)}");
+        Console.WriteLine($"OtherLibTxt_OtherLibText exist {System.IO.File.Exists(s_otherLibTxt_OtherLibText)}");
         ;
         Console.WriteLine($"\r\n");
     }

@@ -7,8 +7,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)./../LibInFolder/LibInFolder.txt" >
-      <TargetPath>LibInFolder/LibInFolder.txt</TargetPath>
+    <None Include="$(MSBuildThisFileDirectory)./../OtherLibTxt/OtherLib.txt" >
+      <TargetPath>OterhLibTxt/OterhLibTxt</TargetPath>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

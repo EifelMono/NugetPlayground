@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="LibInFolder\LibInFolder.txt">
+    <None Update="OtherLibTxt\OtherLib.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <PackagePath></PackagePath>
       <Pack>true</Pack>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Ext\**\*.txt" >
+    <None Update="Ext\**\*.txt">
       <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
       <Pack>true</Pack>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
