@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <Using Include="Lib" />
-    <Using Include="Lib.Folder.LibFolderClass" Static="true" />
+    <Using Include="Lib.Other.LibOtherClass" Static="true" />
   </ItemGroup>
 
   <ItemGroup>
