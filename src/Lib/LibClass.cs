@@ -3,8 +3,8 @@
 namespace Lib;
 public class LibClass
 {
-    private static readonly string s_libText = $"{AppContext.BaseDirectory}/Lib.Txt";
-    private static readonly string s_appText = $"{AppContext.BaseDirectory}/App.Txt";
+    private static readonly string s_libText = $"{AppContext.BaseDirectory}/Lib.txt";
+    private static readonly string s_appText = $"{AppContext.BaseDirectory}/App.txt";
     private static readonly string s_otherLibTxt_OtherLibText = $"{AppContext.BaseDirectory}/OtherLibTxt/OtherLib.txt";
 
     public static void Infos()
