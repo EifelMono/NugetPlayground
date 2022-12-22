@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppWithLib", "src\AppWithLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib", "src\Lib\Lib.csproj", "{5BD2B02A-0F80-4ADC-AB40-E80341BB27DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppWithLibAsNuget", "src\AppWithLibAsNuGet\AppWithLibAsNuget.csproj", "{46F771F4-B1D1-4FEE-90E5-F2C6C7C2CA99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppWithLibAsNuGet", "src\AppWithLibAsNuGet\AppWithLibAsNuGet.csproj", "{46F771F4-B1D1-4FEE-90E5-F2C6C7C2CA99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
