@@ -1,9 +1,9 @@
 # NugetPlayground 
 
-My learning stuff for nugets with targets on dotnet
+Learning stuff for nugets with targets on dotnet
 and CakeBuild
 
-To build and compile I uses [CakeBuild](https://cakebuild.net/)
+To build and compile works with [CakeBuild](https://cakebuild.net/)
 To compile this project you need to restore this tool
 
 ```
