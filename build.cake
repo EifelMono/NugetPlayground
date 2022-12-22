@@ -7,27 +7,37 @@ var globalNuGet= $"{userDirectory}/.nuget/packages";
 
 Task("Clean")
 .Does(() => {
-   foreach(var bin in GetDirectories("src/**/bin"))
-   {
-      Information($"Clean bin {bin}");
-      CleanDirectory(bin);
-   }
-   foreach(var obj in GetDirectories("src/**/obj"))
-   {
-      Information($"Clean obj {obj}");
-      CleanDirectory(obj);
-   }
-   if (DirectoryExists(localNuGet))
-   {
-      Information($"Clean local {localNuGet}");
-      CleanDirectory(localNuGet);
-   }
+    Information("Clear bin");
+    foreach(var bin in GetDirectories("src/**/bin"))
+    {
+        Information($"Clean bin {bin}");
+        CleanDirectory(bin);
+    }
+    Information("Clear obj");
+    foreach(var obj in GetDirectories("src/**/obj"))
+    {
+        Information($"Clean obj {obj}");
+        CleanDirectory(obj);
+    }
+    Information($"Clear local nuget {localNuGet}");
+    if (DirectoryExists(localNuGet))
+    {
+        Information($"Clean local {localNuGet}");
+        CleanDirectory(localNuGet);
+    }
 
-   foreach(var nuget in GetDirectories($"{globalNuGet}/Lib"))
-   {
-      Information($"Clean global {nuget}");
-      CleanDirectory(nuget);
-   }
+    Information($"Clear global nuget {globalNuGet}/Lib");
+    foreach(var nuget in GetDirectories($"{globalNuGet}/Lib"))
+    {
+        Information($"Clean global {nuget}");
+        CleanDirectory(nuget);
+    }
+    Information($"Clear global nuget {globalNuGet}/lib");
+    foreach(var nuget in GetDirectories($"{globalNuGet}/lib"))
+    {
+        Information($"Clean global {nuget}");
+        CleanDirectory(nuget);
+    }
 });
 
 Task("Pack")
