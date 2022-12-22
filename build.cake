@@ -25,7 +25,7 @@ Task("Clean")
         Information($"Clean local {localNuGet}");
         CleanDirectory(localNuGet);
     }
-
+    CopyFile("dummy", "nuget/dummy");
     Information($"Clear global nuget {globalNuGet}/Lib");
     foreach(var nuget in GetDirectories($"{globalNuGet}/Lib"))
     {

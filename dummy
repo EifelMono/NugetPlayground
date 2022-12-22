@@ -1,0 +1,5 @@
+This is dummy file for the directory nuget while git can not handle easy empty directories. 
+'dotnet tool restore' throws an error if the directory nuget does not exist.
+Because it looks in the nuget.config for sources and one source is the directory nuget.
+
+

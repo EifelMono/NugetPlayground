@@ -1,0 +1,5 @@
+Dummy file for the directory nuget 
+while 'dotnet tool restore' throws an error if the directory nuget does not exist.
+because it looks in the nuget.config for sources.
+
+
