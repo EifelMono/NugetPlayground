@@ -2,4 +2,4 @@
 
 LibClass.Infos();
 
-Console.WriteLine(Concat("World", "World"));
+Console.WriteLine(Concat("Hello", "World"));
