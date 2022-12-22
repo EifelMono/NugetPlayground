@@ -5,7 +5,7 @@ public class LibClass
 {
 	public static string LibText = $"{AppContext.BaseDirectory}/Lib.Txt";
 	public static string AppText = $"{AppContext.BaseDirectory}/App.Txt";
-	public static string x86_Libx86Text = $"{AppContext.BaseDirectory}/x86/Libx86.Txt";
+	public static string LibInFolder_LibInFolderText = $"{AppContext.BaseDirectory}/LibInFolder/LibInFolder.Txt";
 
 	public void Infos()
 	{
@@ -15,7 +15,7 @@ public class LibClass
 		Console.WriteLine($"Executing Assembly {Assembly.GetExecutingAssembly().FullName}"); ;
 		Console.WriteLine($"AppText exist {System.IO.File.Exists(AppText)}"); ;
 		Console.WriteLine($"LibText exist {System.IO.File.Exists(LibText)}"); ;
-		Console.WriteLine($"x86_Libx86Text exist {System.IO.File.Exists(x86_Libx86Text)}"); ;
+		Console.WriteLine($"LibInFolder_LibInFolderText exist {System.IO.File.Exists(LibInFolder_LibInFolderText)}"); ;
         Console.WriteLine($"\r\n");
     }
 }
