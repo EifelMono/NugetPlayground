@@ -23,9 +23,9 @@ dotnet cake
   * nuget directory in the root
 * usage of nuget without changing of the version
   * cake script
-    * deletes all bin and obj folders
-    * deletes the nuget in the local nuget folder (root nuget)
-    * deletes the nuget in the global nuget folder (?user?/.nuget/packages)     
+    * deletes all bin and obj directories
+    * deletes the nuget in the local nuget directory (root nuget)
+    * deletes the nuget in the global nuget directory (?user?/.nuget/packages)     
 * targets
     * Additional file
     * Additional files
