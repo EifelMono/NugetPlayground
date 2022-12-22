@@ -1,8 +1,8 @@
-﻿
-
-
-Console.WriteLine("AppWithLib");
+﻿Console.WriteLine("AppWithLib");
 
 LibClass.Infos();
 
-Console.WriteLine(Concat("World", "World"));
+Console.WriteLine(Concat("Hello", "AppWithLib"));
+
+Console.WriteLine();
+

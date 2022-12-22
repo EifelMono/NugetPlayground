@@ -2,4 +2,6 @@
 
 LibClass.Infos();
 
-Console.WriteLine(Concat("Hello", "World"));
+Console.WriteLine(Concat("Hello", "AppWithLibAsNuget"));
+
+Console.WriteLine();
