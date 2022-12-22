@@ -7,7 +7,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)./../Other  LibTxt/OtherLib.txt" >
+    <None Include="$(MSBuildThisFileDirectory)./../OtherLibTxt/OtherLib.txt" >
       <TargetPath>OterhLibTxt/OterhLibTxt</TargetPath>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
