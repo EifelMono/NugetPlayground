@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <None Update="Ext\**\*.txt" >
-      <Link>Ext\%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
       <Pack>true</Pack>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <PackagePath>build\%(RecursiveDir)%(Filename)%(Extension)</PackagePath>
