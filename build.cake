@@ -7,26 +7,26 @@ var globalNuGet= $"{userDirectory}/.nuget/packages";
 
 Task("Clean")
 .Does(() => {
-    Information("Clear bin");
+    Information("Clean bin");
     foreach(var bin in GetDirectories("src/**/bin"))
     {
         Information($"Clean bin {bin}");
         CleanDirectory(bin);
     }
-    Information("Clear obj");
+    Information("Clean obj");
     foreach(var obj in GetDirectories("src/**/obj"))
     {
         Information($"Clean obj {obj}");
         CleanDirectory(obj);
     }
-    Information($"Clear local nuget {localNuGet}");
+    Information($"Clean local nuget {localNuGet}");
     if (DirectoryExists(localNuGet))
     {
         Information($"Clean local {localNuGet}");
         CleanDirectory(localNuGet);
     }
-    CopyFile("dummy", "nuget/dummy");
-    Information($"Clear global nuget {globalNuGet}/Lib");
+    CopyFile("nuget.txt", "nuget/nuget.txt");
+    Information($"Clean global nuget {globalNuGet}/Lib");
     foreach(var nuget in GetDirectories($"{globalNuGet}/Lib"))
     {
         Information($"Clean global {nuget}");
