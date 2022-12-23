@@ -42,6 +42,9 @@ Task("Clean")
 
 Task("Pack")
 .Does(() => {
+   DotNetBuild("src/Lib/Lib.csproj", new DotNetBuildSettings {
+      Configuration= configuration
+   });
    DotNetPack("src/Lib/Lib.csproj", new DotNetPackSettings {
       OutputDirectory = localNuGet,
       Configuration= configuration
